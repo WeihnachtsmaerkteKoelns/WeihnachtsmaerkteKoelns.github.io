@@ -1,0 +1,1 @@
+var json_AusgangspunktHbf_1 = {"type":"FeatureCollection","name":"AusgangspunktHbf_1","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"Id":"true","Name":"Hauptbahnhof","Latitude":50.94319,"Longitude":6.95866},"geometry":{"type":"Point","coordinates":[6.95866,50.94319]}}]}
