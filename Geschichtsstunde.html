@@ -18,6 +18,9 @@
 		"@type": "Organization",
 		"name": "Site1"
 }</script>
+	<script>
+		document.getElementById("pfeil").style.height = document.getElementById("geschichtsstunde_Container").style.height;
+	</script>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Geschichtsstunde">
     <meta property="og:description" content="">
@@ -47,7 +50,7 @@
         <p class="u-align-center u-text u-text-body-alt-color u-text-1">
 	<div style="display:flex;flex-direction:row;align-items:stretch;color:white;">
 		
-		<div style="display:flex;flex-direction:column;align-content:space-between">
+		<div style="display:flex;flex-direction:column;align-content:space-between" id="geschichtsstunde_Container">
 			    <div>
 				    <span style="font-weight:bold;">Ab 1820:</span> Der erste Kölner Weihnachtsmarkt öffnet ohne amtliche Genehmigung als “Nicolaimarkt” auf dem Alter Markt<br>
 				→ Hauptsächlich kulinarisches Angebot: Moppen, Printen, Spekulatius, Marzipan, Maronen<br><br>
@@ -87,7 +90,7 @@
 				2022: Mit wenigen Ausnahmen öffnen die Kölner Weihnachtsmärkte weitestgehend uneingeschränkt<br><br>
 			</div>
 		</div>
-		<div style="font-size:5px;">
+		<div style="font-size:5px;" id="pfeil">
 			&#8595;
 		</div>
 		<div style="display:flex;flex-direction:column;">
